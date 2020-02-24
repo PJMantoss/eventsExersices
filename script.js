@@ -9,3 +9,13 @@ document.addEventListener("DOMContentLoaded", function(){
     let change = document.getElementById("change_heading");
     change.innerHTML = "Hello World!";
   });
+
+//Q.3
+document.addEventListener("DOMContentLoaded", function(){
+    let selectBox = document.querySelector("section");
+    selectBox.addEventListener("mouseover", function(event){
+    boxSelected = document.querySelector(".selected");
+    boxSelected.innerHTML = event.target.className;
+  })
+
+});
