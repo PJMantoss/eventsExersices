@@ -41,4 +41,7 @@ document.addEventListener("DOMContentLoaded", function(){
     let button = document.querySelector("button");
     let car1 = document.querySelector(".car1");
     let car2 = document.querySelector(".car2");
+    
+    car1.style.marginLeft = 0;
+    car2.style.marginLeft = 0;
 })
