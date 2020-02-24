@@ -44,4 +44,6 @@ document.addEventListener("DOMContentLoaded", function(){
     
     car1.style.marginLeft = 0;
     car2.style.marginLeft = 0;
+    
+    function reset(car1, car2){}
 })
