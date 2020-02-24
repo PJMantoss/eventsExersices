@@ -13,6 +13,14 @@ div {
     margin-left: 350px;
   }
 
+  h2 {
+    margin-left: 350px;
+  }
+
+  button {
+    margin-left: 350px;
+  }
+
   .brown{
     background-color: brown;
   }
@@ -35,7 +43,7 @@ div {
    background-color: #1DA788;
   }
   .car1, .car2 {
-      margin-left: 0;
+    margin-left: 350px;
   }
 
   section {
