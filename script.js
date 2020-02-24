@@ -30,3 +30,10 @@ document.addEventListener("DOMContentLoaded", function(){
     newDiv.className = "purple";
     section.appendChild(newDiv);
   });
+
+//Part 2
+/* Q
+Create a racing game with the two cars. When the race button is pressed,
+the two cars should move across the screen until one of them is at the end of the screen.
+When one of the blocks reaches the end - you should alert "winner!"
+*/
