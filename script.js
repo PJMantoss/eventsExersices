@@ -53,5 +53,14 @@ document.addEventListener("DOMContentLoaded", function(){
         button.disabled = false;
     }
     
-    button.addEventListener("click", function(event){}, 60)
+    button.addEventListener("click", function(event){
+        button.disabled = true;
+        car1.timer = setInterval(function(){
+            car1.style.marginLeft = parseInt(car1.style.marginLeft) + Math.random() * 60 + 'px';
+            if (parseInt(car1.style.marginLeft) > window.innerWidth){
+                alert("Car 1 Wins!");
+                reset(car1, car2);
+            }
+    }, 60)
+        
 })
