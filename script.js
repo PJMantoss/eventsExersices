@@ -53,4 +53,5 @@ document.addEventListener("DOMContentLoaded", function(){
         button.disabled = false;
     }
     
+    button.addEventListener("click", function(event){}, 60)
 })
