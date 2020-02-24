@@ -5,20 +5,7 @@ div {
     display: inline-block;
   }
 
-  h1 {
-    margin-left: 350px;
-  }
-
-  span {
-    margin-left: 350px;
-  }
-
-  h2 {
-    margin-left: 350px;
-  }
-
   button {
-    margin-left: 350px;
     margin-bottom: 5px;
   }
 
@@ -44,9 +31,5 @@ div {
    background-color: #1DA788;
   }
   .car1, .car2 {
-    margin-left: 350px;
-  }
-
-  section {
-    margin-left: 350px;
+    margin-left: 0;
   }
