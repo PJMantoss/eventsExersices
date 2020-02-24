@@ -3,3 +3,9 @@
 document.addEventListener("DOMContentLoaded", function(){
     console.log("DOM fully loaded and parsed");
   });
+
+//Q.2 Replace the text "Change me" with "Hello World!".
+document.addEventListener("DOMContentLoaded", function(){
+    let change = document.getElementById("change_heading");
+    change.innerHTML = "Hello World!";
+  });
