@@ -45,5 +45,12 @@ document.addEventListener("DOMContentLoaded", function(){
     car1.style.marginLeft = 0;
     car2.style.marginLeft = 0;
     
-    function reset(car1, car2){}
+    function reset(car1, car2){
+        clearTimeout(car1.timer);
+        clearTimeout(car2.timer);
+        car1.style.marginLeft = 0;
+        car2.style.marginLeft = 0;
+        button.disabled = false;
+    }
+    
 })
