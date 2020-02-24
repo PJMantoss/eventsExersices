@@ -19,3 +19,14 @@ document.addEventListener("DOMContentLoaded", function(){
   })
 
 });
+
+/* Q.4, 5 &  6. Create a new div element. Give your new div a class of purple
+and style it so that it has a background color of purple. Append your new div
+to the page to the section tag. 
+*/
+document.addEventListener("DOMContentLoaded", function(){
+    let section = document.querySelector("section");
+    let newDiv = document.createElement("div");
+    newDiv.className = "purple";
+    section.appendChild(newDiv);
+  });
